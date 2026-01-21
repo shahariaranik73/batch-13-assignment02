@@ -96,3 +96,22 @@ header {
     margin: 0 0;
     background-color: #1A0B2E;
 }
+.card-text{
+    transition:0.3s;
+}
+.card-text:hover{
+    transform: scale(1.1);
+ }
+.card-media{
+    justify-content: center;
+}
+@media screen and (max-width:576px){
+    .card-media{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #about-desc{
+        padding: 0px;
+        width: 570px;
+        background-color: red;
+    }
+}
