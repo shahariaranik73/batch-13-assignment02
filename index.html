@@ -21,26 +21,71 @@
     <main>
         <header>
             <nav class="nav-bar flex justify-between">
-                <h1 class="text-4xl text-white">Tach<span class="text-4xl font-extrabold bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent
-">Wave</span></h1>
-                <ul class="flex gap-3">
+                <h1 class="text-4xl text-white">Tach<span id="wave" class="font-bold">Wave</span></h1>
+                <ul class="flex gap-3 text-white">
                     <li>About</li>
                     <li>Episodes</li>
                     <li>Host</li>
                 </ul>
                 <button class="btn1">Subscribe<i class="fa-solid fa-arrow-right"></i></button>
             </nav>
-            <div class="hero-container">
+            <div class="hero-container overflow-hidden mb-4">
             
-                <img src="Images/hero-circle.png" alt="">
-                <img src="Images/microphone.png" alt="Microphone" id="inner-img">
-                <h2>TechWave</h2>
-                <p>TechWave is an innovative technology solutions company dedicated to transforming businesses through cutting-edge software, cloud services, and IT consulting.</p>
+                <img src="Images/hero-circle.png" alt="" class="w-full">
+                <img src="Images/microphone.png" alt="Microphone" id="inner-img">  
+            </div>            
+            <div class="hero-contant text-center text-white">
+                <h2 class="text-5xl font-bold mb-2">TechWave</h2>
+                <p class="mb-4 font-thin">TechWave is an innovative technology solutions company dedicated to transforming businesses through cutting-edge software.</p>
+                <div class="flex justify-center gap-3 pb-7">
+                    <button class="flex btn1"> <img src="Images/spotify.png" alt="">Listen on Spotify</button>
+                <button class="btn2 flex"><img src="Images/message.png" alt=""> Subscribe</button>
+                </div>
+            </div>         
+        </header>
+        <section class="about-section color-1bag ">
+            <div class="text-white text-center pt-8">
+                <h2 class="text-4xl font-bold mb-4">
+                    About the Podcast
+                </h2>
+                <p class="pb-20 text-[16px] font-thin">
+                    TeachWeve It is a practical podcast that simplifies web development for beginners and <creators class="br"></creators> From HTML, CSS, and JavaScript basics to modern tools, real projects, and career tips, each episode helps you build skills, confidence, and a future in tech step by step weekly clear and friendly.
+                </p>
+                <div class=" grid md:grid-cols-3 xl:grid-cols-4 pb-[120px]">
+                    <div class="mt-2.5 mb-2.5">
+                    <h2 class="about-reating font-bold text-5xl">
+                       150K+ 
+                    </h2>
+                    <p class="font-extralight">Monthly Listeners</p>
+                </div>
+                    <div class="mt-2.5 mb-2.5">
+                    <h2 class="about-reating font-bold text-5xl">
+                       200+ 
+                    </h2>
+                    <p class="font-extralight">Episodes Published</p>
+                </div>
+                    <div class="mt-2.5 mb-2.5">
+                    <h2 class="about-reating font-bold text-5xl">
+                       4.9 <i class="fa-solid fa-star"></i> 
+                    </h2>
+                    <p class="font-extralight">Average Rating</p>
+                </div>
+                    <div class="mt-2.5 mb-2.5">
+                    <h2 class="about-reating font-bold text-5xl ">
+                       50K+ 
+                    </h2>
+                    <p class="font-extralight">Industry Experts</p>
+                </div>
+                </div>
             </div>
 
-            
-        </header>
+            <section>
+                
+            </section>
+        </section>
     </main>
+    </div>
+    </section>
 </body>
 
 </html>
